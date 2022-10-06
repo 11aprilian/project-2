@@ -3,3 +3,12 @@
     left: 10%;
     top: 10%;
 }
+
+#btn{
+    display : block;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+

@@ -1,3 +1,4 @@
+//start
 let button = document.getElementById("btn");
 
 button.addEventListener("click", () => {
@@ -5,8 +6,7 @@ button.addEventListener("click", () => {
   const berat = document.getElementById("weight").value;
   let result = document.getElementById("output");
   let status = document.getElementById("status");
-  let heightStatus = false,
-    weightStatus = false;
+  let heightStatus = false, weightStatus = false;
 
   if (tinggi === "" || isNaN(tinggi)) {
     document.getElementById("heightError").innerHTML = "Insert a Valid Height";
